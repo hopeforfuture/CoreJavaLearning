@@ -24,5 +24,9 @@ public class TreeMapDemo {
         for(Integer key : fruits.keySet()) {
             System.out.println(key + " " + fruits.get(key));
         }
+        
+        System.out.println("Headmap for key 104: " + fruits.headMap(104, true));
+        System.out.println("Tailmap for key 104: " + fruits.tailMap(104, false));
+        System.out.println("Submap for key 104 and 107: " + fruits.subMap(104, 107));
     }
 }
