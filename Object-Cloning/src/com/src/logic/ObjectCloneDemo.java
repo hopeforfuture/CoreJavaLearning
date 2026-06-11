@@ -53,6 +53,9 @@ public class ObjectCloneDemo {
         A obj = new A(10, 20);
         A obj1 = (A) obj.clone();
         
+        obj1.setI(15);
+        obj1.setJ(25);
+        
         System.out.println("obj properties: i: " + obj.getI() + " j: " + obj.getJ());
         System.out.println("obj1 properties: i: " + obj1.getI() + " j: " + obj1.getJ());
     }
