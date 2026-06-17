@@ -18,12 +18,20 @@ public class ReverseStringDemo {
     public static String ReverseEachWord(String str) {
         return Stream.of(str.split("")).reduce("", (a,b) -> b + a);
     }
+    public static String ReverseEachWordTwo(String str) {
+        return IntStream.range(0, str.length())
+                .mapToObj(i -> String.valueOf(str.charAt(str.length()-i-1)))
+                .collect(Collectors.joining());
+    }
+    
+    
     public static void main(String[] args) {
         try(Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter any string: ");
             String sentence = sc.nextLine();
             String sentenceWithReverseWord = Arrays.stream(sentence.split(" "))
-                    .map(ReverseStringDemo::ReverseEachWord)
+                    //.map(ReverseStringDemo::ReverseEachWord)
+                    .map(ReverseStringDemo::ReverseEachWordTwo)
                     .collect(Collectors.joining(" "));
             System.out.println("Reverse string: " + sentenceWithReverseWord);
         } catch(Exception ex) {
