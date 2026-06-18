@@ -5,6 +5,7 @@
 package com.src.code;
 import java.util.Set;
 import java.util.LinkedHashSet;
+import java.util.stream.Collectors;
 
 /**
  *
@@ -12,12 +13,13 @@ import java.util.LinkedHashSet;
  */
 public class UniqueCharsDemo {
     public static void main(String[] args) {
-        Set<Character> seen = new LinkedHashSet<>();
+        Set<String> seen = new LinkedHashSet<>();
         String str = "programming";
         String uniqueStr = str.chars()
-                            .filter(c -> seen.add((char)c))
-                            .collect(StringBuilder::new, (sb,c) -> sb.append((char)c), StringBuilder::append)
-                            .toString();
+                            .mapToObj(c -> String.valueOf((char)c))
+                            .filter(seen::add)
+                            .collect(Collectors.joining());
+                            
         System.out.println("String after removing duplicate chars: " + uniqueStr);
     }
 }

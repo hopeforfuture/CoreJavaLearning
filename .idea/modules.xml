@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstract-Java-Class/Abstract-Java-Class.iml" filepath="$PROJECT_DIR$/Abstract-Java-Class/Abstract-Java-Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basic-String-Operation/Basic-String-Operation.iml" filepath="$PROJECT_DIR$/Basic-String-Operation/Basic-String-Operation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicArray/BasicArray.iml" filepath="$PROJECT_DIR$/BasicArray/BasicArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Core-Java-Learning.iml" filepath="$PROJECT_DIR$/Core-Java-Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EnumInJava/EnumInJava.iml" filepath="$PROJECT_DIR$/EnumInJava/EnumInJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception-Handling/Exception-Handling.iml" filepath="$PROJECT_DIR$/Exception-Handling/Exception-Handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FibonacciSeries/FibonacciSeries.iml" filepath="$PROJECT_DIR$/FibonacciSeries/FibonacciSeries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance-Object-Creation/Inheritance-Object-Creation.iml" filepath="$PROJECT_DIR$/Inheritance-Object-Creation/Inheritance-Object-Creation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerClassDemo/InnerClassDemo.iml" filepath="$PROJECT_DIR$/InnerClassDemo/InnerClassDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface-Default-Method/Interface-Default-Method.iml" filepath="$PROJECT_DIR$/Interface-Default-Method/Interface-Default-Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Basic-Interface/Java-Basic-Interface.iml" filepath="$PROJECT_DIR$/Java-Basic-Interface/Java-Basic-Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Final-Keyword/Java-Final-Keyword.iml" filepath="$PROJECT_DIR$/Java-Final-Keyword/Java-Final-Keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Number-Swap/Java-Number-Swap.iml" filepath="$PROJECT_DIR$/Java-Number-Swap/Java-Number-Swap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Static-Block/Java-Static-Block.iml" filepath="$PROJECT_DIR$/Java-Static-Block/Java-Static-Block.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Static-Demo/Java-Static-Demo.iml" filepath="$PROJECT_DIR$/Java-Static-Demo/Java-Static-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Super-Detail/Java-Super-Detail.iml" filepath="$PROJECT_DIR$/Java-Super-Detail/Java-Super-Detail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Super-Keyword/Java-Super-Keyword.iml" filepath="$PROJECT_DIR$/Java-Super-Keyword/Java-Super-Keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Throw-Keyword/Java-Throw-Keyword.iml" filepath="$PROJECT_DIR$/Java-Throw-Keyword/Java-Throw-Keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java2DArrayEnhancedForLoop/Java2DArrayEnhancedForLoop.iml" filepath="$PROJECT_DIR$/Java2DArrayEnhancedForLoop/Java2DArrayEnhancedForLoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAnnotation/JavaAnnotation.iml" filepath="$PROJECT_DIR$/JavaAnnotation/JavaAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaCollection/JavaCollection.iml" filepath="$PROJECT_DIR$/JavaCollection/JavaCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFileHandling/JavaFileHandling.iml" filepath="$PROJECT_DIR$/JavaFileHandling/JavaFileHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFundamentals/JavaFundamentals.iml" filepath="$PROJECT_DIR$/JavaFundamentals/JavaFundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaInterviewPrograms/JavaInterviewPrograms.iml" filepath="$PROJECT_DIR$/JavaInterviewPrograms/JavaInterviewPrograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaJaggedArray/JavaJaggedArray.iml" filepath="$PROJECT_DIR$/JavaJaggedArray/JavaJaggedArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLocalization/JavaLocalization.iml" filepath="$PROJECT_DIR$/JavaLocalization/JavaLocalization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaMysqlCrud/JavaMysqlCrud.iml" filepath="$PROJECT_DIR$/JavaMysqlCrud/JavaMysqlCrud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaMysqlJdbc/JavaMysqlJdbc.iml" filepath="$PROJECT_DIR$/JavaMysqlJdbc/JavaMysqlJdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPatternPrograms/JavaPatternPrograms.iml" filepath="$PROJECT_DIR$/JavaPatternPrograms/JavaPatternPrograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaProperty/JavaProperty.iml" filepath="$PROJECT_DIR$/JavaProperty/JavaProperty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaRandomArrayElement/JavaRandomArrayElement.iml" filepath="$PROJECT_DIR$/JavaRandomArrayElement/JavaRandomArrayElement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaReflectionDemo/JavaReflectionDemo.iml" filepath="$PROJECT_DIR$/JavaReflectionDemo/JavaReflectionDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaReflextionDemo/JavaReflextionDemo.iml" filepath="$PROJECT_DIR$/JavaReflextionDemo/JavaReflextionDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSerialization/JavaSerialization.iml" filepath="$PROJECT_DIR$/JavaSerialization/JavaSerialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSingletonPattern/JavaSingletonPattern.iml" filepath="$PROJECT_DIR$/JavaSingletonPattern/JavaSingletonPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStreamsApi/JavaStreamsApi.iml" filepath="$PROJECT_DIR$/JavaStreamsApi/JavaStreamsApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStringExamples/JavaStringExamples.iml" filepath="$PROJECT_DIR$/JavaStringExamples/JavaStringExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaThreadBasics/JavaThreadBasics.iml" filepath="$PROJECT_DIR$/JavaThreadBasics/JavaThreadBasics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaUtilityPrograms/JavaUtilityPrograms.iml" filepath="$PROJECT_DIR$/JavaUtilityPrograms/JavaUtilityPrograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaVarArgs/JavaVarArgs.iml" filepath="$PROJECT_DIR$/JavaVarArgs/JavaVarArgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Marker-Interface/Marker-Interface.iml" filepath="$PROJECT_DIR$/Marker-Interface/Marker-Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Method-Overloading/Method-Overloading.iml" filepath="$PROJECT_DIR$/Method-Overloading/Method-Overloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Method-Overriding/Method-Overriding.iml" filepath="$PROJECT_DIR$/Method-Overriding/Method-Overriding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NumberPattern/NumberPattern.iml" filepath="$PROJECT_DIR$/NumberPattern/NumberPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object-Cloning/Object-Cloning.iml" filepath="$PROJECT_DIR$/Object-Cloning/Object-Cloning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object-Count/Object-Count.iml" filepath="$PROJECT_DIR$/Object-Count/Object-Count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object-Deep-Cloning/Object-Deep-Cloning.iml" filepath="$PROJECT_DIR$/Object-Deep-Cloning/Object-Deep-Cloning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object-Shallow-Copy/Object-Shallow-Copy.iml" filepath="$PROJECT_DIR$/Object-Shallow-Copy/Object-Shallow-Copy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectSerialization/ObjectSerialization.iml" filepath="$PROJECT_DIR$/ObjectSerialization/ObjectSerialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" filepath="$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scanner-Class-Demo/Scanner-Class-Demo.iml" filepath="$PROJECT_DIR$/Scanner-Class-Demo/Scanner-Class-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String-Split-Java/String-Split-Java.iml" filepath="$PROJECT_DIR$/String-Split-Java/String-Split-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToStringDemo/ToStringDemo.iml" filepath="$PROJECT_DIR$/ToStringDemo/ToStringDemo.iml" />
+    </modules>
+  </component>
+</project>

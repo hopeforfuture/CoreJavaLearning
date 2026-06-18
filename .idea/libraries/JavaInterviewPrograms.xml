@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JavaInterviewPrograms">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JavaInterviewPrograms/dist/JavaInterviewPrograms.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
