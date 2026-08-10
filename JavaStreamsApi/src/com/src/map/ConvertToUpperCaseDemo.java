@@ -21,5 +21,15 @@ public class ConvertToUpperCaseDemo {
         for(String name : upperNames) {
             System.out.println(name);
         }
+        
+        System.out.println("------Coverting strings to uppercase in another way--------");
+        
+        List<String> result = names.stream()
+                            .map(String::toUpperCase)
+                            .toList();
+        
+        for(String s : result) {
+            System.out.println(s);
+        }
     }
 }
