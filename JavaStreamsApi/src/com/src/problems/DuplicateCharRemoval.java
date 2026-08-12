@@ -5,6 +5,8 @@
 package com.src.problems;
 import java.util.Scanner;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
+import java.util.Arrays;
 
 /**
  *
@@ -16,10 +18,18 @@ public class DuplicateCharRemoval {
         try(Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter any string: ");
             String str = sc.nextLine();
-           String str_updated =  str.chars()
+            
+            /*String str_updated =  str.chars()
                .distinct()
                .mapToObj(ch -> String.valueOf((char)ch))
-                    .collect(Collectors.joining());
+                    .collect(Collectors.joining());*/
+            
+            String str_updated = Stream.of(str.split(" "))
+                    .map(word -> word.chars()
+                    .distinct()
+                    .mapToObj(ch -> String.valueOf((char)ch))
+                    .collect(Collectors.joining())
+                    ).collect(Collectors.joining(" "));
            
             System.out.println(str + " becomes " + str_updated + " after duplicate removal");
         }
