@@ -9,7 +9,7 @@ public class SumOfDigits {
 		int sum = String.valueOf(n).chars()
 				.map(ch -> Character.getNumericValue(ch))
 				.sum();
-		
+						
 		System.out.println("Sum: " + sum);
 	}
 
