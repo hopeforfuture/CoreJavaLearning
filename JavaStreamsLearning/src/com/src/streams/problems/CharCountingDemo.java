@@ -1,7 +1,6 @@
 package com.src.streams.problems;
 import java.util.Map;
 import java.util.Scanner;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class CharCountingDemo {
@@ -14,7 +13,7 @@ public class CharCountingDemo {
 			Map<Character, Long> map = str.chars()
 					.mapToObj(c -> (char)c)
 					.collect(Collectors.groupingBy(
-								Function.identity(),
+								s->s,
 								Collectors.counting()
 							));
 			
