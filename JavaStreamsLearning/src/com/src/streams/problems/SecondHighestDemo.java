@@ -13,7 +13,8 @@ public class SecondHighestDemo {
 								.sorted(Comparator.reverseOrder())
 								.skip(1)
 								.findFirst()
-								.orElse(null);
+								.get();
+								//.orElse(null);
 		
 		System.out.println("Second Highest: " + secondHighest);
 	}
