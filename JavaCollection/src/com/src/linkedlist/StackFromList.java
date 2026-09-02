@@ -13,18 +13,18 @@ public class StackFromList {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Deque<Integer> deque = new LinkedList<>();
-		deque.push(10);
-		deque.push(15);
-		deque.push(20);
-		deque.push(30);
+		Deque<Integer> stack = new LinkedList<>();
+		stack.push(10);
+		stack.push(15);
+		stack.push(20);
+		stack.push(30);
 		
 		System.out.println("Initial contents of statck: ");
-		printList(deque);
-		Integer i = deque.pop();
+		printList(stack);
+		Integer i = stack.pop();
 		System.out.println("Element popped: " + i);
 		System.out.println("Final contents of statck: ");
-		printList(deque);
+		printList(stack);
 	}
 
 }
