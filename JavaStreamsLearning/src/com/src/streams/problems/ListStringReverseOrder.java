@@ -1,6 +1,7 @@
 package com.src.streams.problems;
 import java.util.List;
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class ListStringReverseOrder {
 
@@ -8,7 +9,8 @@ public class ListStringReverseOrder {
 		// TODO Auto-generated method stub
 		List<String> strs = Arrays.asList("Watermelon", "Banana", "Apple", "Cucumber", "Lemon", "Orange");
 		List<String> sortedStrings = strs.stream()
-			.sorted()
+			//.sorted(Comparator.reverseOrder())
+			.sorted(Comparator.naturalOrder())
 			.toList();
 		
 		for(String s : sortedStrings) {
