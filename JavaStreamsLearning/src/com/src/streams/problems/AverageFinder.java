@@ -10,6 +10,7 @@ public class AverageFinder {
 		double average = intNums.stream()
 								.mapToInt(n -> n)
 								.average()
+								//.orElse(0.0);
 								.getAsDouble();
 		
 		System.out.println("Average: " + average);
