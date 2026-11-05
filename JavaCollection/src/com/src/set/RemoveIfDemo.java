@@ -1,6 +1,7 @@
 package com.src.set;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class RemoveIfDemo {
 	
@@ -12,7 +13,7 @@ public class RemoveIfDemo {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		HashSet<Integer> numbers = new HashSet<>();
+		HashSet<Integer> numbers = new LinkedHashSet<>();
 		numbers.add(10);
 		numbers.add(20);
 		numbers.add(30);

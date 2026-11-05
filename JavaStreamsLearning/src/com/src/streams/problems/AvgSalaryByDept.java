@@ -1,4 +1,4 @@
-package com.src.group;
+package com.src.streams.problems;
 
 import java.util.Arrays;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 import com.code.common.Employee;
 
-public class AvgSalByDepy {
+public class AvgSalaryByDept {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,13 +24,13 @@ public class AvgSalByDepy {
 			);
 		
 		Map<String, Double> mapData = employees.stream()
-				.collect(Collectors.groupingBy(
-							Employee::getDepartment,
-							Collectors.averagingDouble(Employee::getSalary)
-						));
+												.collect(Collectors.groupingBy(
+															Employee::getDepartment,
+															Collectors.averagingDouble(Employee::getSalary)
+														));
 		
 		for(var e : mapData.entrySet()) {
-			System.out.println("Department: " + e.getKey() + " Salary: " + e.getValue());
+			System.out.println(e.getKey() + " : " + e.getValue());
 		}
 	}
 
