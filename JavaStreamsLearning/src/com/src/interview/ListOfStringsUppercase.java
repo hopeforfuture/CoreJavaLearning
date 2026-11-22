@@ -9,6 +9,7 @@ public class ListOfStringsUppercase {
 		List<String> names = Arrays.asList("Patric", "James", "Peter", "Andrew", "Kevin");
 		List<String> upperCaseNames = names.stream()
 			.map(s -> s.toUpperCase())
+			.sorted()
 			.toList();
 		
 		System.out.println(upperCaseNames);
